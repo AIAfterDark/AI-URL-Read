@@ -1,4 +1,4 @@
-# URL Reader Assistant
+# Local AI URL Reader Assistant - Ollama
 
 ## Overview
 
