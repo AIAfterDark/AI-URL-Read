@@ -95,7 +95,7 @@ python url-read.py https://example.com \
 | Argument | Description | Default |
 |----------|-------------|---------|
 | url | Target URL to analyze (required) | None |
-| --model | Ollama model name | llama2 |
+| --model | Ollama model name | llama3.2 |
 | --max-pages | Maximum pages to crawl | 50 |
 | --verbose | Enable detailed logging | False |
 | --save-db | Save database snapshot | False |
