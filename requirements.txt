@@ -1,0 +1,40 @@
+# Core dependencies
+langchain==0.1.9
+langchain-community==0.0.24
+langchain-core==0.1.27
+langchain-ollama==0.0.5
+
+# Vector store and embeddings
+chromadb==0.4.24
+numpy==1.24.3
+
+# Web crawling and parsing
+beautifulsoup4==4.12.3
+requests==2.31.0
+urllib3==2.2.1
+
+# Data handling
+pandas==2.1.4
+dataclasses-json==0.6.4
+
+# User interface
+colorama==0.4.6
+readline==6.2.4.1; platform_system != "Windows"
+pyreadline3==3.4.1; platform_system == "Windows"
+
+# Type checking and utilities
+typing-inspect==0.9.0
+typing_extensions==4.9.0
+python-dateutil==2.8.2
+
+# Logging and debugging
+tqdm==4.66.1
+
+# Documentation dependencies
+mistune==3.0.2
+mdurl==0.1.2
+markdown-it-py==3.0.0
+
+# Optional requirements for enhanced functionality
+python-magic==0.4.27; platform_system != "Windows"  # For file type detection
+python-magic-bin==0.4.14; platform_system == "Windows"  # Windows-specific
