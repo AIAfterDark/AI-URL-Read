@@ -40,7 +40,7 @@ The assistant specializes in crawling documentation websites, processing their c
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/url-reader
+git clone https://github.com/AIAfterDark/AI-URL-Read.git
 cd url-reader
 
 # Create and activate virtual environment
@@ -51,7 +51,7 @@ source venv/bin/activate  # On Windows use: venv\Scripts\activate
 pip install -r requirements.txt
 
 # Ensure Ollama is running and pull required model
-ollama pull llama2
+ollama pull llama3.2
 ```
 
 ### Required Dependencies
@@ -83,7 +83,7 @@ For more control over the processing:
 
 ```bash
 python url-read.py https://example.com \
-    --model llama2 \
+    --model llama3.2 \
     --max-pages 5 \
     --verbose \
     --save-db \
